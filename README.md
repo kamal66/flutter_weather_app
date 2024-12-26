@@ -1,4 +1,4 @@
-# Flutter Weather App
+# 🚀 Flutter Weather App 🌦️
 
 A modern Flutter-based weather application that provides accurate weather information using the OpenWeather API. The app utilizes BLoC for state management and offers a sleek and user-friendly interface with two primary screens:
 
@@ -7,22 +7,22 @@ A modern Flutter-based weather application that provides accurate weather inform
 
 ---
 
-## Features
+## Features 🌟
 
-### Home Screen
-- Current temperature in Celsius.
-- Description of the atmosphere (e.g., Clear, Cloudy, Thunderstorm, etc.).
-- Sunrise and sunset timings.
-- Humidity level.
-- Maximum and minimum temperatures for the day.
+### Home Screen 🏠
+- Current temperature in Celsius 🌡️.
+- Description of the atmosphere (e.g., Clear, Cloudy, Thunderstorm, etc.) ☁️.
+- Sunrise 🌅 and sunset 🌇 timings.
+- Humidity level 💧.
+- Maximum and minimum temperatures for the day 🌡️.
 
-### Weekly Forecast Screen
-- Daily temperature for the next 7 days.
-- Atmospheric description for each day (e.g., Clear, Cloudy, Thunderstorm, etc.).
+### Weekly Forecast Screen 📅
+- Daily temperature for the next 7 days 🌤️.
+- Atmospheric description for each day (e.g., Clear, Cloudy, Thunderstorm, etc.) 🌈.
 
 ---
 
-## Technologies Used
+## Technologies Used 🛠️
 
 - **Flutter**: For building a cross-platform mobile application.
 - **BLoC (Business Logic Component)**: For state management to separate business logic from UI.
@@ -31,13 +31,13 @@ A modern Flutter-based weather application that provides accurate weather inform
 
 ---
 
-## Getting Started
+## Getting Started 🚀
 
-### Prerequisites
+### Prerequisites 🔑
 - [Flutter SDK](https://flutter.dev/docs/get-started/install)
 - OpenWeather API Key (Get it from [OpenWeather](https://openweathermap.org/api))
 
-## Folder Structure
+## Folder Structure 📂
 
 ```plaintext
 lib/
@@ -60,26 +60,25 @@ lib/
 ```
 
 
-## API Integration
+## API Integration 🌐
 
 The app fetches weather data from the OpenWeather API, ensuring accurate and up-to-date information.
 
-- **Endpoint for Current Weather**:  
-  `https://api.openweathermap.org/data/2.5/weather`
-
-- **Endpoint for Weekly Forecast**:  
-  `https://api.openweathermap.org/data/2.5/forecast/daily`
+```plaintext
+weather: ^3.1.1
+```
 
 ---
 
-## Screenshots
+## Screenshots 📸
 
-### Home Screen
-*Show location permission popup
+### Home Screen 🏠
+*Show location permission popup.*
+
 *Shows current weather details for the selected location.*
 
 
-### Weekly Forecast Screen
+### Weekly Forecast Screen 📅
 *Displays weather forecast for the next 6 days.*
 
 <div style="display: flex; justify-content: space-between;">
@@ -90,13 +89,13 @@ The app fetches weather data from the OpenWeather API, ensuring accurate and up-
 
 ---
 
-## License
+## License 📜
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
 ---
 
-## Acknowledgments
+## Acknowledgments 🙏
 
 - [Flutter Documentation](https://flutter.dev/docs)
 - [OpenWeather API](https://openweathermap.org/api)
