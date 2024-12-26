@@ -75,14 +75,18 @@ The app fetches weather data from the OpenWeather API, ensuring accurate and up-
 ## Screenshots
 
 ### Home Screen
+*Show location permission popup
 *Shows current weather details for the selected location.*
-![Screenshot](https://github.com/kamal66/flutter_weather_app/blob/main/screenshots/ss1.png?raw=true)
-![Screenshot](https://github.com/kamal66/flutter_weather_app/blob/main/screenshots/ss2.png?raw=true)
 
 
 ### Weekly Forecast Screen
 *Displays weather forecast for the next 6 days.*
-![Screenshot](https://github.com/kamal66/flutter_weather_app/blob/main/screenshots/ss3.png?raw=true)
+
+<div style="display: flex; justify-content: space-between;">
+  <img src="https://github.com/kamal66/flutter_weather_app/blob/main/screenshots/ss1.png?raw=true" width="250" height="auto" alt="Screenshot 1"/>
+  <img src="https://github.com/kamal66/flutter_weather_app/blob/main/screenshots/ss2.png?raw=true" width="250" height="auto" alt="Screenshot 2"/>
+  <img src="https://github.com/kamal66/flutter_weather_app/blob/main/screenshots/ss3.png?raw=true" width="250" height="auto" alt="Screenshot 3"/>
+</div>
 
 ---
 
