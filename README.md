@@ -39,6 +39,7 @@ A modern Flutter-based weather application that provides accurate weather inform
 
 ## Folder Structure
 
+```plaintext
 lib/
 ├── bloc/
 │   ├── weather_bloc.dart          # BLoC implementation for weather logic
@@ -56,6 +57,7 @@ lib/
 │   ├── weather_card.dart          # Reusable widget for weather info
 │   └── forecast_list.dart         # Reusable widget for weekly forecast
 └── main.dart                      # App entry point
+```
 
 
 ## API Integration
@@ -74,9 +76,13 @@ The app fetches weather data from the OpenWeather API, ensuring accurate and up-
 
 ### Home Screen
 *Shows current weather details for the selected location.*
+![Screenshot](https://github.com/kamal66/flutter_weather_app/blob/main/screenshots/ss1.png?raw=true)
+![Screenshot](https://github.com/kamal66/flutter_weather_app/blob/main/screenshots/ss2.png?raw=true)
+
 
 ### Weekly Forecast Screen
-*Displays weather forecast for the next 7 days.*
+*Displays weather forecast for the next 6 days.*
+![Screenshot](https://github.com/kamal66/flutter_weather_app/blob/main/screenshots/ss3.png?raw=true)
 
 ---
 

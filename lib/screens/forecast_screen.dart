@@ -50,6 +50,7 @@ class _ForecastScreenState extends State<ForecastScreen> {
         extendBodyBehindAppBar: true,
         backgroundColor: Colors.black,
         appBar: AppBar(
+          leading: Container(),
           backgroundColor: Colors.transparent,
           elevation: 0,
           systemOverlayStyle: const SystemUiOverlayStyle(
